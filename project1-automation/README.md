@@ -24,7 +24,7 @@ All test cases are structured in two formats:
 
 ---
 
-## Day 1 – Basic Locators & Login Flow
+## Basic Locators & Login Flow
 
 - Used basic element locators to launch the page and tested login functionality with invalid data.  
 - Then navigated to the forgot password page, fetched a temporary password, and successfully logged in.  
@@ -36,7 +36,7 @@ All test cases are structured in two formats:
 
 ---
 
-## Day 2 – Static Dropdown
+## Static Dropdown
 
 - Learned to handle **static dropdowns** using the `Select` tag in the DOM.  
 
@@ -47,7 +47,7 @@ All test cases are structured in two formats:
 
 ---
 
-## Day 3 – Dynamic Dropdown
+## Dynamic Dropdown
 
 - Dynamic dropdowns load options based on other selections (e.g., "From" and "To" cities).  
 
@@ -57,7 +57,7 @@ All test cases are structured in two formats:
 
 ---
 
-## Day 4 – Suggestive Dropdown
+## Suggestive Dropdown
 
 - Handled **suggestive/autocomplete dropdowns** where suggestions appear as you type.
 
@@ -68,7 +68,7 @@ All test cases are structured in two formats:
 
 ---
 
-## Day 5 – Custom Dropdown
+## Custom Dropdown
 
 - Automated dropdowns that use increment/decrement controls (not `<select>` tags).
 
@@ -81,11 +81,11 @@ All test cases are structured in two formats:
 - Opened passenger selection panel  
 - Increased adults with `while` loop  
 - Decreased adults with `for` loop  
-- Used assertions to validate expected count  
+- Used assertions to validate the expected count  
 
 ---
 
-## Day 6 – Checkbox
+## Checkbox
 
 ### What I Learned
 1. Automated checkbox selection/deselection.  
@@ -106,11 +106,11 @@ All test cases are structured in two formats:
 To automate and validate checkbox behavior using Selenium + Java.
 
 ### Code Flow
-1. Launch browser  
+1. Launch the browser  
 2. Validate default checkbox state  
-3. Select, validate selection  
+3. Select and validate the selection  
 4. Deselect, validate again  
-5. Print checkbox state  
+5. Print the checkbox state  
 6. Count total checkboxes  
 
 ### Key Concepts Practiced
@@ -121,7 +121,7 @@ To automate and validate checkbox behavior using Selenium + Java.
 
 ---
 
-## Day 7 – Calendar & UI Element Validation
+## Calendar & UI Element Validation
 
 This project validates calendar behavior using **Selenium WebDriver** and **TestNG**, on [SpiceJet](https://www.spicejet.com).
 
@@ -145,8 +145,8 @@ This project automates a user form submission on the [Rahul Shetty Academy Angul
   - Checkboxes
   - Radio buttons
   - Dropdown selection (Gender)
-- Capturing and printing alert confirmation message
-- Extracting and printing selected employment status label
+- Capturing and printing the alert confirmation message
+- Extracting and printing the selected employment status label
 
 ---
 
@@ -159,13 +159,13 @@ It includes:
 - Selecting origin and destination
 - Choosing the current date in the departure calendar
 - Validating whether the return date calendar is enabled
-- Selecting number of adult passengers
+- Selecting the number of adult passengers
 - Selecting a travel fare category
 - Initiating a flight search
 
 ---
 
-## Day 8 – Alert Handling with Selenium and TestNG
+## Alert Handling with Selenium and TestNG
 
 This project demonstrates how to handle JavaScript alerts and confirmation popups using **Selenium WebDriver** with **TestNG** in Java.
 
@@ -191,7 +191,7 @@ This project is a solution to a common e-commerce QA automation challenge inspir
 
 ## Solution Strategy
 
-I faced several key challenges while working on this and here’s how I tackled them:
+I faced several key challenges while working on this, and here’s how I tackled them:
 
 ###  Problem 1: Hardcoded Product Names
 - **Issue**: Couldn’t check individual items one by one.
@@ -213,7 +213,7 @@ I faced several key challenges while working on this and here’s how I tackled 
 ###  Problem 5: Loop Continuation After All Items Are Added
 Issue: The loop kept running even after all products were added.
 
-Solution: Used a counter j and a break once all required items were added.
+Solution: Used a counter and a break once all required items were added.
 
 ## Key Learnings
 - How to make automation code resilient to UI changes.
@@ -221,9 +221,9 @@ Solution: Used a counter j and a break once all required items were added.
 - Practiced writing scalable and reusable code in real-world-like scenarios.
 ---
 
-##  Day 9 – Synchronization in Selenium using Implicit and Explicit Waits
+##  Synchronization in Selenium using Implicit and Explicit Waits
 
-When automating modern web applications, timing issues are one of the trickiest challenges.
+When automating modern web applications, timing issues are one of the most challenging aspects.
 
 Elements don’t always load instantly — some appear in milliseconds, while others take seconds due to dynamic content. That’s where synchronization comes in, and Selenium offers powerful wait mechanisms to handle it: Implicit Wait and Explicit Wait.
 
@@ -255,7 +255,7 @@ Today, I implemented both in a real-time scenario. Here’s what I learned 👇
  Cons:
  - More code to write for each dynamic element
  - Misuse can lead to longer waits or timeout exceptions
- - Needs clear understanding of element behavior
+ - Needs a clear understanding of element behavior
 
  Real Scenario I Automated:
  - Selected a list of grocery items dynamically from the UI
@@ -272,17 +272,17 @@ Today, I implemented both in a real-time scenario. Here’s what I learned 👇
 
  ## Test Case Overview
  Steps Covered
-- Open browser and navigate to the site
-- Select items: Brocolli, Tomato, Pumpkin, Mango, Pomegranate, Almonds, Cashews
+- Open the browser and navigate to the site
+- Select items: Broccoli, Tomato, Pumpkin, Mango, Pomegranate, Almonds, Cashews
 - Click Cart and Proceed to Checkout
 - Apply promo code: rahulshettyacademy
-- Wait for success message using Explicit Wait
+- Wait for the success message using Explicit Wait
 - Print the promo confirmation message
 - Close the browser
 
 ---
 
-# Day 10 – Fluent Wait in Selenium with TestNG
+# Fluent Wait in Selenium with TestNG
 
 This project demonstrates the use of **Fluent Wait** in Selenium WebDriver using Java and TestNG. It handles a real-time scenario where elements take time to become visible on a dynamically loaded page.
 
@@ -320,7 +320,7 @@ The script covers:
 - Performing login using dynamic values
 - Selecting a role from a dropdown
 - Handling alerts and pop-ups
-- Adding multiple products to cart
+- Adding multiple products to the cart
 - Navigating from login ➡️ product listing ➡️ cart
 
 ## Key Concepts Practiced
@@ -335,7 +335,7 @@ Website Tested: https://rahulshettyacademy.com/loginpagePractise/
 
 ---
 
-## Day 11 – Selenium Automation – Exploring Actions Class with TestNG
+## Selenium Automation – Exploring Actions Class with TestNG
 
 This project demonstrates how to use the **Selenium Actions Class** to perform advanced user interactions like mouse hover, right-click, and typing uppercase input using keyboard control. The automation is performed on the **Nykaa** e-commerce website.
 
@@ -354,7 +354,7 @@ Website Tested: https://www.nykaa.com/
 
 ---
 
-##  Day 12 – Selenium TestNG Window Handling
+##  Selenium TestNG Window Handling
 
 This project demonstrates how to handle multiple browser windows using **Selenium WebDriver** and **TestNG**. The script automates a login workflow where an email ID is extracted from a child window and used in the parent window.
 
@@ -369,6 +369,6 @@ This project demonstrates how to handle multiple browser windows using **Seleniu
 ---
 
 > 📂 **Project Folder Structure**  
-- `without TESTNG FreamWork/` → Test files without TestNG  
+- `without TESTNG Framework/` → Test files without TestNG  
 - `With TESTNG/` → Test files with TestNG  
 - `Exercise/checkbox.java` → Additional exercises  
